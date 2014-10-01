@@ -11,7 +11,7 @@ end
 
 def get_tracking_page(tracking_number)
   b = Watir::Browser.new :phantomjs
-  b.start 'http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=au'
+  b.goto 'http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=au'
   b.textarea(:name => "cons").set "#{tracking_number}"
   b.button(:name => "btnX").click 
   html = b.html
