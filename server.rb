@@ -3,8 +3,8 @@ require 'watir-webdriver'
 require 'open-uri'
 require 'nokogiri'
 
-get '/' do
-  @yield = get_tracking_status(922648777)
+get '/:tracking_number' do |tracking_number|
+  @yield = get_tracking_status(tracking_number)
   erb :track
 end
 
