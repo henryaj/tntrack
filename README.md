@@ -13,7 +13,7 @@ Then, from the app folder, run `rackup`. Go to http://localhost:9292/<your_TNT_t
 ## Technologies
 
 * Sinatra
-* Watir and phantomjs (for headless browsing)
-* Nokogiri
+* Mechanize (for headless browsing)
+* Nokogiri (for parsing and stripping out HTML before it gets put on the page)
 
 
