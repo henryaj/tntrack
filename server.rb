@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'watir-webdriver'
-require 'Nokogiri'
+require 'open-uri'
+require 'nokogiri'
 
 get '/' do
   @yield = get_tracking_status(922648777)
@@ -26,7 +27,8 @@ def get_tracking_status(tracking_number)
   html.search('//table[@width="470"]').remove
   # html.search('//table[@width="510"]').remove
   results = html.search('//table')
-  results.search('//table[position() < 6]').remove
+  results.search('//table[position() < 6]', '//button', '//td[1]').remove
+  # results = results.search('//button').remove
   results
 end
 
