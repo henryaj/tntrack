@@ -1,4 +1,4 @@
-# tntrack
+# tntracker
 
 A simple web tracker for your TNT parcels.
 
