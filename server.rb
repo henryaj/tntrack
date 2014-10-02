@@ -2,6 +2,10 @@ require 'sinatra'
 require 'mechanize'
 require 'open-uri'
 require 'nokogiri'
+require 'rack'
+require 'rack-google-analytics'
+
+use Rack::GoogleAnalytics, :tracker => 'UA-41530570-4'
 
 get '/' do
   erb :index
