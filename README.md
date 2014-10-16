@@ -19,6 +19,6 @@ Then, from the app folder, run `rackup`. Go to http://localhost:9292/<your_TNT_t
 * Nokogiri (for parsing and stripping out HTML before it gets put on the page)
 * Dokku (for quick pushing to a Digital Ocean instance)
 
-*(Truly, I stand on the shoulders of giants!)*
+*(Truly, I stand on the shoulders of giants)*
 
 
