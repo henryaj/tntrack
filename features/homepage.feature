@@ -13,7 +13,7 @@ Feature: simple text homepage
 
   Scenario: I want to see a sample track
     Given I am on the homepage
-    When I click "See a sample track"
+    When I follow "See a sample track"
     Then I should see "Sample track"
     
     
