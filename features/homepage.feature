@@ -10,11 +10,11 @@ Feature: simple text homepage
   Scenario: who made this thing?
     When I am on the homepage
     Then I should see "Henry"
-    When I follow "Henry"
-    Then I should be on "http://henrystanley.com"
 
-  
-  
-  
-
-  
+  Scenario: I want to see a sample track
+    Given I am on the homepage
+    When I click "See a sample track"
+    Then I should see "Sample track"
+    
+    
+    
