@@ -14,6 +14,10 @@ class Tntracker < Sinatra::Base
     erb :index
   end
 
+  get '/sample' do
+    erb :sample
+  end
+
   get '/:tracking_number' do |tracking_number|
     @yield = get_tracking_status(tracking_number)
     erb :track
