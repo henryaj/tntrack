@@ -16,6 +16,9 @@ module NavigationHelpers
     when /henrystanley.com/
       'http://henrystanley.com'
 
+    when /the status page for package 922648777/
+      '/922648777'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
