@@ -1,6 +1,6 @@
 Feature: simple text homepage
   In order to see what tntracker is for 
-  As a guests
+  As a guest
   I want to see a description on the homepage
 
   Scenario: viewing the homepage
