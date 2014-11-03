@@ -1,6 +1,6 @@
 ![tntracker home page](./screenshot.jpg)
 
-# tntracker [![Code Climate](https://codeclimate.com/github/henryaj/tntrack/badges/gpa.svg)](https://codeclimate.com/github/henryaj/tntrack)
+# tntracker [![Code Climate](https://codeclimate.com/github/henryaj/tntrack/badges/gpa.svg)](https://codeclimate.com/github/henryaj/tntrack) [![Build Status](https://travis-ci.org/henryaj/tntrack.svg?branch=master)](https://travis-ci.org/henryaj/tntrack)
 
 A simple web tracker for your TNT parcels.
 
