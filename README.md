@@ -15,7 +15,7 @@ Then, from the app folder, run `rackup`. Go to http://localhost:9292/<your_TNT_t
 ## Technologies
 
 * Sinatra
-* Mechanize (for headless browsing)
+* [Mechanize](https://github.com/sparklemotion/mechanize) (for headless browsing)
 * Nokogiri (for parsing and stripping out HTML before it gets put on the page)
 * Dokku (for quick pushing to a Digital Ocean instance)
 
